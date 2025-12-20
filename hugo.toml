@@ -16,6 +16,10 @@ copyright = "Copyright © 2025, Fan Yang."
   dateFormat = "2006-01-02"
   math = false
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # Configure markup highlighter to match "Bearblog" aesthetics, see
 # https://gohugo.io/configuration/markup/#highlight
 [markup]
