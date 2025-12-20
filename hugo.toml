@@ -13,6 +13,7 @@ copyright = "Copyright © 2025, Fan Yang."
 
 [params]
   enablePostNavigator = true
+  hideMadeWithLine = true
   dateFormat = "2006-01-02"
   math = false
 
