@@ -1,4 +1,35 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-bearblog'
+title = 'TechnoCurl'
+theme = ['hugo-video', 'hugo-bearblog']
+author = "Fan Yang"
+copyright = "Copyright © 2025, Fan Yang."
+
+[permalinks]
+  [permalinks.page]
+    blog = '/posts/:slug/'
+  [permalinks.section]
+    blog = '/posts/'
+
+[params]
+  enablePostNavigator = true
+  dateFormat = "2006-01-02"
+  math = false
+
+# Configure markup highlighter to match "Bearblog" aesthetics, see
+# https://gohugo.io/configuration/markup/#highlight
+[markup]
+  [markup.highlight]
+    # style = 'ashen'
+    style = 'catppuccin-macchiato'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
