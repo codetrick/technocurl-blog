@@ -1,7 +1,7 @@
 +++
 date = '2026-03-25T00:00:00-05:00'
 draft = false
-title = 'Tracking Curling Rocks from Overhead Video, Part 1'
+title = 'Tracking Curling Rocks, Part 1: Classical Computer Vision'
 slug = 'curling-rock-tracking-part1'
 math = true
 +++
