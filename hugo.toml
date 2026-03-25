@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'TechnoCurl'
 theme = ['hugo-video', 'hugo-bearblog']
 author = "Fan Yang"
-copyright = "Copyright © 2025, Fan Yang."
+copyright = "Copyright © 2026, Fan Yang."
 
 [permalinks]
   [permalinks.page]
