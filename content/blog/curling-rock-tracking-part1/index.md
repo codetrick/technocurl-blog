@@ -50,7 +50,7 @@ The circles line up nicely with the painted rings on the ice. We're in business.
 
 The nice thing about this approach is that the distortion map only needs to be computed once, and then we can apply it to every frame using OpenCV's `remap()`. The default implementation runs on CPU, so it's not quite fast enough for real-time use, but it works fine for offline processing.
 
-{{< video src="unwarp_visualize" >}}
+{{< video src="unwarp_visualize" loop="true" autoplay="true" muted="true" controls="false">}}
 
 # finding the rocks
 
@@ -91,7 +91,7 @@ The accumulated dots trace out the paths the rocks traveled during the end. Here
 
 You can see the yellow rock's trajectory as it ticks a guard and rolls to the top four foot behind cover. And here's the full annotated video:
 
-{{< video src="annotated" >}}
+{{< video src="annotated" loop="true" autoplay="true" muted="true" controls="false">}}
 
 # what I learned
 
