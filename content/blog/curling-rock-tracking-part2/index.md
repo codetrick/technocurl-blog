@@ -1,6 +1,6 @@
 +++
 date = '2026-04-04T06:00:00-05:00'
-draft = true
+draft = false
 title = 'Tracking Curling Rocks, Part 2: Off-the-Shelf Deep Learning'
 slug = 'curling-rock-tracking-part2'
 +++
