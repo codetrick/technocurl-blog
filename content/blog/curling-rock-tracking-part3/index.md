@@ -1,6 +1,6 @@
 +++
 date = '2026-04-17T08:00:00-05:00'
-draft = true
+draft = false
 title = 'Tracking Curling Rocks, Part 3: New Camera System'
 slug = 'curling-rock-tracking-part3'
 math = true
