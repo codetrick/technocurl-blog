@@ -5,7 +5,7 @@ title = 'Tracking Curling Rocks, Part 2: Off-the-Shelf Deep Learning'
 slug = 'curling-rock-tracking-part2'
 +++
 
-In [part 1](/posts/curling-rock-tracking-part1/), I built a rock detection pipeline using classical computer vision -- fisheye correction, HSV color matching, and the Hough circle transform. It worked reasonably well, but was held together by hand-tuned thresholds that would fall apart the moment the lighting changed or someone switched to a different camera. The hog line kept getting detected as a red rock. I wanted to see if off-the-shelf deep learning models could do better, without having to train anything myself.
+In [part 1]({{< relref "curling-rock-tracking-part1" >}}), I built a rock detection pipeline using classical computer vision -- fisheye correction, HSV color matching, and the Hough circle transform. It worked reasonably well, but was held together by hand-tuned thresholds that would fall apart the moment the lighting changed or someone switched to a different camera. The hog line kept getting detected as a red rock. I wanted to see if off-the-shelf deep learning models could do better, without having to train anything myself.
 
 <!--more-->
 

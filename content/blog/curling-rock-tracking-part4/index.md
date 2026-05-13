@@ -6,7 +6,7 @@ slug = 'curling-rock-tracking-part4'
 math = true
 +++
 
-Having laid the ground work in camera calibration ([part 3](/posts/curling-rock-tracking-part3/)) and with our initial exploration done using artificial neural networks models to do rock detection ([part 2](/posts/curling-rock-tracking-part2/)), we are now in a good position to train our custom models. The hope is that this will deliver better accuracy while improving efficiency i.e. faster detection.
+Having laid the ground work in camera calibration ([part 3]({{< relref "curling-rock-tracking-part3" >}})) and with our initial exploration done using artificial neural networks models to do rock detection ([part 2]({{< relref "curling-rock-tracking-part2" >}})), we are now in a good position to train our custom models. The hope is that this will deliver better accuracy while improving efficiency i.e. faster detection.
 
 We need to label some images to train models. But since I don't have a team of professional data labellers at my disposal, I would need to make this process as easy as possible.
 
@@ -14,7 +14,7 @@ We need to label some images to train models. But since I don't have a team of p
 
 # semi-auto-annotation with SAM
 
-Recall that in [part 2](/posts/curling-rock-tracking-part2/) we used a hybrid approach where the [FastSAM](https://docs.ultralytics.com/models/fast-sam/) model was used to find candidate objects, and then heuristics we developed in [part 1](/posts/curling-rock-tracking-part1/) were used to filter for red and yellow rocks. Since we are willing to train neural network models now, we could simply:
+Recall that in [part 2]({{< relref "curling-rock-tracking-part2" >}}) we used a hybrid approach where the [FastSAM](https://docs.ultralytics.com/models/fast-sam/) model was used to find candidate objects, and then heuristics we developed in [part 1]({{< relref "curling-rock-tracking-part1" >}}) were used to filter for red and yellow rocks. Since we are willing to train neural network models now, we could simply:
 1. Use SAM/FastSAM to pick out the same candidate objects.
 2. Use some of the same heuristics to assign labels to them, i.e. auto-annotation.
 3. Review by human and correct if necessary.

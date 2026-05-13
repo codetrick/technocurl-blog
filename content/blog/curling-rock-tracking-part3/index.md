@@ -6,7 +6,7 @@ slug = 'curling-rock-tracking-part3'
 math = true
 +++
 
-While I was conducting my experiments in parts [1](/posts/curling-rock-tracking-part1/) and [2](/posts/curling-rock-tracking-part2/), the club planned for and got a new streaming system installed by [Curling Stadium](https://curlingstadium.com/) in the summer of 2025. Their standard setup puts 4 HD 1080p cameras on each sheet: two PTZ (pan-tilt-zoom) cameras mounted on the end walls for broadcast-style coverage, and two POV (point-of-view) overhead cameras mounted directly above each house. For my purposes, the overhead cameras are the interesting part -- they give a fisheye view of the house end from directly above, which is exactly what I need for rock tracking. With six overhead cameras across three sheets, it was time to recalibrate everything.
+While I was conducting my experiments in parts [1]({{< relref "curling-rock-tracking-part1" >}}) and [2]({{< relref "curling-rock-tracking-part2" >}}), the club planned for and got a new streaming system installed by [Curling Stadium](https://curlingstadium.com/) in the summer of 2025. Their standard setup puts 4 HD 1080p cameras on each sheet: two PTZ (pan-tilt-zoom) cameras mounted on the end walls for broadcast-style coverage, and two POV (point-of-view) overhead cameras mounted directly above each house. For my purposes, the overhead cameras are the interesting part -- they give a fisheye view of the house end from directly above, which is exactly what I need for rock tracking. With six overhead cameras across three sheets, it was time to recalibrate everything.
 
 <!--more-->
 
