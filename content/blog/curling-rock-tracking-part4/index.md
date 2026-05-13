@@ -115,7 +115,7 @@ Training a custom model on a small labeled dataset is a big step up from the zer
  things stood out:
 
 1. Semi-automatic annotation changes the economics. The SAM + classifier + human-review loop made it practical to label several hundred
- images without a dedicated annotation team. The key insight is that you don't need to finish labeling before you start training -- a
+ images without spending days. The key insight is that you don't need to finish labeling before you start training -- a
 small initial batch gets you a model that pre-annotates the next batch, and you iterate from there.
 2. Train a classifier before a detector. A classifier is simpler to train, runs faster, and is good enough for the annotation pipeline.
  Getting the classifier working first let me iterate on the auto-annotation loop before committing to the heavier detection training.
